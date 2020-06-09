@@ -202,6 +202,9 @@ nav li{
  nav ul li{
    display: inline;
  }
+ ul.hidden li{
+  display: inline-block;
+}
 table{
   border-collapse: collapse;
   border: 1px solid black;
@@ -248,4 +251,18 @@ fieldset {
 }
 fieldset legend{
   color: #c0392b;
+}
+/* Подсветка меню */
+.page-header nav a:hover {
+  background-color:rgba(21, 203, 235, 0.8);
+}
+/* Подсветка строк таблицы */
+.browsers tr:hover {
+  background-color:rgba(245, 6, 6, 0.623);
+}
+li.hiddenli ul.hidden{
+  display: none;
+}
+li.hiddenli:hover ul.hidden{
+  display: block;
 }
