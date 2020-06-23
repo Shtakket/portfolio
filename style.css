@@ -4,9 +4,18 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
+}
+.light-theme { 
   color: #222222;
   background-color: #f2f4f6;
   background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #080208;
+  background-image: url("img1/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
