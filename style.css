@@ -266,7 +266,7 @@ fieldset legend{
   background-color:rgba(21, 203, 235, 0.8);
 }
 /* Подсветка строк таблицы */
-.browsers tr:hover {
+tr:hover {
   background-color:rgba(245, 6, 6, 0.623);
 }
 li.hiddenli ul.hidden{
